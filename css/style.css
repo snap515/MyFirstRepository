@@ -1,7 +1,19 @@
-body {
-  background-color: aquamarine;
-  color: black;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-div {
-  font-size: 15px;
+p {
+  font-size: 25px;
+}
+li p {
+  font-size: 10px;
+}
+a {
+  font-style: italic;
+}
+p + a {
+  color: #fff000;
+}
+li a {
+  color: red;
 }
